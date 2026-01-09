@@ -1,3 +1,12 @@
+* {
+  margin: none;
+  padding: none;
+}
 
-
-/*# sourceMappingURL=style.css.map */
+.navbar {
+  position: sticky;
+}
+.navbar .img-icon img {
+  height: 60px;
+  width: 50px;
+}/*# sourceMappingURL=style.css.map */
