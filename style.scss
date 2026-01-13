@@ -4,7 +4,16 @@
 }
 .navbar{
     position: sticky;
-    
+    .btn-ju {
+        border-radius: 16px;
+        background-color: rgb(187, 18, 187);
+        color: white;
+        font-weight: 700;
+        &:hover {
+            background-color: white ;
+            color: rgb(187, 18, 187);
+        }
+    }
 
 .img-icon {
     img {
