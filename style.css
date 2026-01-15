@@ -19,4 +19,27 @@
 .navbar .img-icon img {
   height: 60px;
   width: 50px;
+}
+
+.main-display-img {
+  display: inline;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.main-display-img img {
+  margin-top: 40px;
+  justify-content: center;
+  height: 450px;
+  width: 900px;
+}
+
+.main-display-search {
+  display: inline;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 220px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
