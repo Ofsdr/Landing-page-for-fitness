@@ -45,3 +45,23 @@
     width: 220px;
     border-radius: 50%;
 }
+.text-mi {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 100px 0 100px 0;
+}
+.card {
+    text-align: center;
+    .btn {
+        text-align: end;
+    }
+}
+.btn-show {
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    display: flex ;
+}
