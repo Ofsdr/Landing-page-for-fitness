@@ -1,6 +1,7 @@
-* {
-  padding: 0;
+html,
+body {
   margin: 0;
+  padding: 0;
 }
 
 .navbar {
@@ -37,21 +38,26 @@
   margin-bottom: 100px;
 }
 .main-display-img img {
-  margin-top: 100px;
+  margin-top: 70px;
   justify-content: center;
   height: 450px;
   width: 900px;
 }
 
 .main-display-video {
-  transform: translateX(-30px);
-  border: none;
+  transform: translateY(-120px);
+  clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0% 100%);
+  margin: 0;
+  position: relative;
+  z-index: 1;
   pointer-events: none;
   -webkit-user-select: none;
   /* Safari */
   -moz-user-select: none;
        user-select: none;
   overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main-display-search {
@@ -98,12 +104,14 @@
   text-align: center;
   font-size: 60px;
   font-weight: 700;
-  margin: 100px 0 100px 0;
+  margin-bottom: 100px;
 }
 
 .clubs {
-  display: flex;
+  display: inline-block;
   justify-content: center;
+  -moz-column-count: 3;
+       column-count: 3;
 }
 .clubs .card {
   text-align: left;
@@ -111,16 +119,24 @@
   height: 300px;
   font-size: 20px;
   font-weight: 500;
-  margin-left: 130px;
   position: relative;
 }
 .clubs .card .btn {
-  margin-left: 200px;
+  background-color: #6a00ff;
 }
 
-.btn-show {
-  text-align: center;
-  align-items: center;
-  justify-items: center;
+.parents-btn {
   display: flex;
+  justify-content: center;
+}
+.parents-btn .btn-show {
+  margin: 100px 0 100px 0;
+  width: 13%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 17px 24px;
+  font-size: 23px;
+  border: 1px solid white;
+  border-radius: 40px;
 }/*# sourceMappingURL=style.css.map */
