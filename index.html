@@ -65,10 +65,16 @@
 
         </ul>
         <div class="ms-auto">
-          <div class="btn">My Account</div>
-          <div class="btn btn-ju">Join Us</div>
+          <div class="btn" onclick="showLog()">My Account</div>
+          <div class="btn btn-ju" onclick="showLog()">Join Us</div>
         </div>
+        <div class="overlay" id="overlay" onclick="hiddenLog()"></div>
 
+        <div class="login" id="log">
+          <h2>some</h2>
+          <p>some</p>
+          <button onclick="hiddenLog()">close</button>
+        </div>
       </div>
     </div>
   </nav>
@@ -164,7 +170,7 @@
     </div>
 
   </div>
-
+  <script src="main.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
