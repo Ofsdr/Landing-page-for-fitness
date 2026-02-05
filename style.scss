@@ -296,6 +296,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 50px ;
+    margin-bottom: 50px;
     .btn {
         border-radius: 36px;
         border: 1px solid ;
@@ -303,5 +304,12 @@ body {
         font-size: 20px;
         font-weight: 700;
         padding: 20px 26px 20px 26px;
+    }
+}
+.slide-show {
+    column-count: 3;
+    .card {
+        height: 500px;
+        width: 900px;
     }
 }
