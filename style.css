@@ -260,4 +260,16 @@ body {
 .slide-show .card {
   height: 500px;
   width: 900px;
+}
+
+.img-section {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+.img-section .img-set {
+  clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
+  position: relative;
+  height: 38rem;
 }/*# sourceMappingURL=style.css.map */

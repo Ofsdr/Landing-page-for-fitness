@@ -313,3 +313,15 @@ body {
         width: 900px;
     }
 }
+.img-section {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    .img-set {
+        clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
+        position: relative;
+        
+        height: 38rem;
+    }
+}
