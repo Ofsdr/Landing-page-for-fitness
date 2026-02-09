@@ -253,13 +253,24 @@ body {
   padding: 20px 26px 20px 26px;
 }
 
-.slide-show {
-  -moz-column-count: 3;
-       column-count: 3;
-}
 .slide-show .card {
   height: 500px;
-  width: 900px;
+  width: 100%;
+}
+.slide-show .card img {
+  height: 500px;
+}
+.slide-show .slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.slide-show .slides {
+  display: flex;
+  transition: 0.5s;
+}
+.slide-show .slide {
+  max-width: 100%;
 }
 
 .img-section {

@@ -307,11 +307,29 @@ body {
     }
 }
 .slide-show {
-    column-count: 3;
+
     .card {
         height: 500px;
-        width: 900px;
+        width: 100%;
+        img {
+            height: 500px;
+            
+        }
     }
+    .slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+  display: flex;
+  transition: 0.5s;
+}
+
+.slide {
+    max-width: 100%;
+}
 }
 .img-section {
     display: flex;
