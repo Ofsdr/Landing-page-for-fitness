@@ -191,6 +191,7 @@ body {
     border-radius: 16px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     z-index: 1000;
+
     .iconPopup {
         transform: translateX(430px);
         height: 140px;
@@ -206,11 +207,11 @@ body {
         box-sizing: border-box;
     }
 
-   
+
     button {
         background-color: rgb(86 20 150 / var(--tw-bg-opacity, 1));
         color: white;
-     
+
         padding: 14px 20px;
         margin: 8px 0;
         border: none;
@@ -222,7 +223,7 @@ body {
         opacity: 0.8;
     }
 
-    
+
     .cancelbtn {
         font-size: 20px;
         width: auto;
@@ -230,7 +231,7 @@ body {
         background-color: #f44336;
     }
 
-    
+
     .imgcontainer {
         text-align: center;
         margin: 24px 0 12px 0;
@@ -239,7 +240,7 @@ body {
 
 
 
-   
+
     .container1 {
         padding: 16px;
     }
@@ -264,12 +265,14 @@ body {
         cursor: pointer;
     }
 }
+
 .member-text {
     h1 {
         font-weight: 700;
         font-size: 60px;
         margin-top: 100px;
     }
+
     h5 {
         margin-top: 30px;
         font-size: 23px;
@@ -277,69 +280,136 @@ body {
 
     }
 }
+
 .member-tabs {
     margin-top: 70px;
     columns: 2;
     justify-content: center;
-    
+
     .tabs {
         border-radius: 16px;
         height: 400px;
         width: 500px;
+
         .card-body {
             margin-top: 20px;
             font-size: 30px;
         }
     }
 }
+
 .member-btn {
     display: flex;
     justify-content: center;
-    margin-top: 50px ;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+
     .btn {
         border-radius: 36px;
-        border: 1px solid ;
+        border: 1px solid;
         color: rgb(86 20 150 / var(--tw-text-opacity, 1));
         font-size: 20px;
         font-weight: 700;
         padding: 20px 26px 20px 26px;
     }
 }
+
 .slide-show {
 
     .card {
         height: 500px;
         width: 100%;
+
         img {
             height: 500px;
-            
+
         }
     }
+
     .slider {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .slides {
+        display: flex;
+        transition: 0.5s;
+    }
+
+    .slide {
+        max-width: 100%;
+    }
 }
 
-.slides {
-  display: flex;
-  transition: 0.5s;
-}
-
-.slide {
-    max-width: 100%;
-}
-}
 .img-section {
     display: flex;
     justify-content: center;
     height: auto;
     width: 100%;
+    
     .img-set {
         clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
         position: relative;
-        
+
         height: 38rem;
+    }
+}
+
+.carousel-item {
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+    h5 {
+        font-weight: 700;
+        background: linear-gradient(rgba(0, 0, 0, 0.65),
+                rgba(0, 0, 0, 0.25));
+        ;
+        font-size: 80px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+
+    }
+
+    p {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        overflow: hidden;
+        letter-spacing: 0.5px;
+        background: linear-gradient(rgba(0, 0, 0, 0.55),
+                rgba(0, 0, 0, 0.25));
+        ;
+
+
+
+    }
+
+    img {
+        border-radius: 16px;
+        height: 1200px;
+        width: 1600px;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+    .btn {
+        font-weight: 600;
+        font-size: 23px;
+        background-color: rgb(86 20 150 / var(--tw-bg-opacity, 1));
+        color: white;
+        margin: 50px 0 50px 0;
+        transition: 0.3s;
+
+        padding: 14px 28px;
+
+        border-radius: 999px;
+
+        &:hover {
+            transform: translateY(-2px);
+
+        }
     }
 }
