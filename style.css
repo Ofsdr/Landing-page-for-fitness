@@ -255,24 +255,33 @@ body {
 
 .about-section {
   justify-content: center;
-  padding: 100px 100px 100px 100px;
+  padding: 200px 400px 200px 200px;
+}
+.about-section .card {
+  border: none;
+}
+.about-section .card .card-body {
+  margin: 120px 0 100px 0;
 }
 .about-section h1 {
-  font-weight: 700;
-  margin-bottom: 30px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-size: 55px;
 }
 .about-section p {
   line-height: normal;
+  font-size: 20px;
 }
-.about-section .about-image img {
-  height: 400px;
+.about-section img {
+  height: 560px;
+  border-radius: 26px;
 }
 .about-section .btn {
   font-weight: 600;
   font-size: 23px;
   background-color: rgb(86, 20, 150, var(--tw-bg-opacity, 1));
   color: white;
-  margin: 50px 0 50px 0;
+  margin: 30px 0 50px 0;
   transition: 0.3s;
   padding: 14px 28px;
   border-radius: 999px;
