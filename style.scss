@@ -415,10 +415,15 @@ body {
 // }
 
 .about-section {
-    display: flex;
+    justify-content: center;
     
-    .block-section-about {
-        align-items: center;
+    padding: 100px 100px 100px 100px;
+    h1 {
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    p {
+         line-height: normal;
     }
     .about-image {
         img {
@@ -426,4 +431,20 @@ body {
         }
 
     }
+    .btn {
+        font-weight: 600;
+        font-size: 23px;
+        background-color: rgb(86 20 150 / var(--tw-bg-opacity, 1));
+        color: white;
+        margin: 50px 0 50px 0;
+        transition: 0.3s;
+
+        padding: 14px 28px;
+
+        border-radius: 999px;
+
+        &:hover {
+            transform: translateY(-2px);
+    }
+}
 }
