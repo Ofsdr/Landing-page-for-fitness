@@ -279,4 +279,24 @@ body {
 }
 .about-section .btn:hover {
   transform: translateY(-2px);
+}
+
+.img-block {
+  max-width: 100%;
+  height: 700px;
+  -o-object-position: center 15%;
+     object-position: center 15%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
+}
+.img-block img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 0;
+     object-position: 0 0;
+  -o-object-position: center 15%;
+     object-position: center 15%;
 }/*# sourceMappingURL=style.css.map */
