@@ -258,6 +258,7 @@ body {
   padding: 200px 400px 200px 200px;
 }
 .about-section .card {
+  border-radius: 26px;
   border: none;
 }
 .about-section .card .card-body {
@@ -308,4 +309,35 @@ body {
      object-position: 0 0;
   -o-object-position: center 15%;
      object-position: center 15%;
+}
+
+.text-place p {
+  text-wrap: wrap;
+}
+.text-place {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.column-place {
+  justify-content: center;
+  align-items: center;
+  -moz-columns: 3;
+       columns: 3;
+  text-align: center;
+}
+.column-place img {
+  height: 70px;
+  width: 70px;
+}
+.column-place h3 {
+  font-weight: 700;
+  font-size: 38px;
+}
+.column-place p {
+  font-size: 20px;
+}
+.column-place a {
+  color: #6a00ff;
+  font-size: 28px;
 }/*# sourceMappingURL=style.css.map */

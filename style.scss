@@ -419,7 +419,7 @@ body {
 
     padding: 200px 400px 200px 200px;
     .card {
-       
+        border-radius: 26px;
         border: none;
         .card-body {
             margin: 120px 0 100px 0;
@@ -476,5 +476,33 @@ body {
         object-fit: cover;
         object-position: 0 0;
             object-position: center 15%;
+    }
+}
+.text-place {
+    p {
+        text-wrap: wrap;
+    }
+    font-size: 70px;
+    font-weight: 800;
+}
+.column-place {
+    justify-content: center;
+    align-items: center;
+    columns: 3;
+    text-align: center;
+    img {
+        height: 70px;
+        width: 70px;
+    }
+    h3 {
+        font-weight: 700;
+        font-size: 38px;
+    }
+    p {
+        font-size: 20px ;
+    }
+    a {
+        color: #6a00ff;
+        font-size: 28px;
     }
 }
