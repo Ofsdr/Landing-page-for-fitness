@@ -340,4 +340,21 @@ body {
 .column-place a {
   color: #6a00ff;
   font-size: 28px;
+}
+
+.Download-section .text-phone {
+  text-align: left;
+  padding: 200px 0px 0px 300px;
+}
+.Download-section .text-phone .btn {
+  background-color: white;
+}
+.Download-section .phone-image {
+  justify-content: end;
+  align-items: end;
+  justify-items: end;
+}
+.Download-section .phone-image img {
+  height: 700px;
+  width: 700px;
 }/*# sourceMappingURL=style.css.map */
