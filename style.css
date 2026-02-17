@@ -357,4 +357,9 @@ body {
 .Download-section .phone-image img {
   height: 700px;
   width: 700px;
+}
+
+.gray {
+  background-color: gray;
+  border-radius: 26px;
 }/*# sourceMappingURL=style.css.map */
