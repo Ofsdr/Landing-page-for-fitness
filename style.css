@@ -359,7 +359,29 @@ body {
   width: 700px;
 }
 
-.gray {
-  background-color: gray;
+.quick-actions-section {
+  padding: 100px 0 30px 0;
+}
+.quick-actions-section .text-quick {
+  font-size: 40px;
+  padding: 30px 0 30px 0;
+}
+.quick-actions-section .column-gap {
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  padding: 0px 0px 60px 0;
+}
+.quick-actions-section .column-gap .gray {
+  padding: 30px 0px 0px 0px;
+  background: white;
   border-radius: 26px;
+}
+.quick-actions-section .column-gap .gray .icon {
+  margin-bottom: 10px;
+}
+.quick-actions-section .column-gap .gray .icon img {
+  height: 40px;
+}
+.quick-actions-section .little-title {
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */
