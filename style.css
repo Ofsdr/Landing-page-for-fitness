@@ -384,4 +384,17 @@ body {
 }
 .quick-actions-section .little-title {
   text-align: left;
+}
+
+.l-b-section .logo-btn {
+  border-bottom: 0.4px solid white;
+  justify-content: space-between;
+  color: white;
+  padding: 20px 0 20px 0;
+}
+.l-b-section .logo-btn .btn {
+  color: #6a00ff;
+  background-color: white;
+  border-radius: 36px;
+  padding: 13px 9px 13px 9px;
 }/*# sourceMappingURL=style.css.map */
