@@ -261,13 +261,45 @@ body {
   justify-content: center;
 
   .tabs {
+    justify-items: space-between;
     border-radius: 16px;
     height: 400px;
     width: 500px;
 
     .card-body {
+      
       margin-top: 20px;
       font-size: 30px;
+
+      .card-title {
+        display: flex;
+        justify-content: space-between;
+        h5 {
+          transform: translateY(10px);
+          width: 220px;
+          font-size: 26px;
+        }
+        p {
+          border-radius: 16px;
+          padding: 10px 0 10px 10px;
+          font-size: 20px;
+          background-color: rgb(238, 238, 35);
+          width: 110px;
+          color: black;
+        }
+      }
+      a {
+       padding: 0 150px 0 30px;
+        font-size: 23px;
+      }
+        .btn {
+    border-radius: 36px;
+    border: 1px solid;
+    color: rgb(86 20 150 / var(--tw-text-opacity, 1));
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 26px 20px 26px;
+  }
     }
   }
 }
@@ -450,49 +482,71 @@ body {
     object-position: center 15%;
   }
 }
+.banner-column {
+  margin: 30px 0 170px 0;
+  .text-place {
+    p {
+      padding: 10px 300px 50px 300px;
+      text-wrap: wrap;
+    }
 
-.text-place {
-  p {
-    text-wrap: wrap;
+    font-size: 70px;
+    font-weight: 800;
   }
 
-  font-size: 70px;
-  font-weight: 800;
+  .column-place {
+    justify-content: center;
+    align-items: center;
+    columns: 3;
+    text-align: center;
+
+    img {
+      height: 70px;
+      width: 70px;
+      margin-bottom: 20px;
+
+    }
+
+    h3 {
+      font-weight: 740;
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 24px;
+    }
+
+    a {
+      font-weight: 700;
+      color: #6a00ff;
+      font-size: 23px;
+    }
+  }
 }
-
-.column-place {
-  justify-content: center;
-  align-items: center;
-  columns: 3;
-  text-align: center;
-
-  img {
-    height: 70px;
-    width: 70px;
-  }
-
-  h3 {
-    font-weight: 700;
-    font-size: 38px;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
-  a {
-    color: #6a00ff;
-    font-size: 28px;
-  }
-}
-
 .Download-section {
   .text-phone {
     text-align: left;
-    padding: 200px 0px 0px 300px;
+    padding: 300px 0px 0px 220px;
+    color: white;
+    h2 {
+      font-size: 60px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
 
     .btn {
       background-color: white;
+      border-radius: 36px;
+      border: 1px solid;
+      color: rgb(86 20 150 / var(--tw-text-opacity, 1));
+      font-size: 20px;
+      font-weight: 700;
+      padding: 20px 26px 20px 26px;
     }
   }
 
@@ -502,14 +556,14 @@ body {
     justify-items: end;
 
     img {
-      height: 700px;
-      width: 700px;
+      height: 1000px;
+      width: 1000px;
     }
   }
 }
 
 .quick-actions-section {
-  padding: 100px 0 30px 0;
+  padding: 100px 0 50px 0;
 
   .text-quick {
     font-size: 40px;
@@ -517,11 +571,10 @@ body {
   }
 
   .column-gap {
-    column-gap: 40px;
-    padding: 0px 0px 60px 0;
+    column-gap: px;
+    padding: 0px 0px 70px 0;
 
     .gray {
-      padding: 30px 0px 0px 0px;
       background: white;
       border-radius: 26px;
 
@@ -529,7 +582,7 @@ body {
         margin-bottom: 10px;
 
         img {
-          height: 40px;
+          height: 80px;
         }
       }
     }
@@ -585,12 +638,12 @@ body {
 //      }
 //   }
 .footer {
-  background-color: #5b2bbf !important;
+  background-color: #5c2e85 !important;
   .bottom-line {
     margin-bottom: 20px;
   }
   .logo-btn-section {
-    border-bottom: 1px solid #fff ;
+    border-bottom: 1px solid #fff;
   }
   .column-info {
     margin: 30px 0 30px 0;
@@ -611,14 +664,14 @@ body {
   }
   .btn-light {
     background-color: #fff;
-    color: #5b2bbf;
+    color: #5c2e85;
     border-radius: 36px;
     padding: 12px 30px;
     font-weight: 600;
     border: none;
     &:hover {
       background-color: #f0f0f0;
-      color: #5b2bbf;
+      color: #5c2e85;
     }
     .border-bottom-light {
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -627,7 +680,6 @@ body {
       border-top: 1px solid rgba(255, 255, 255, 0.3);
     }
     .social-icon {
-      
       font-size: 1.5rem;
       margin-right: 1rem;
       color: rgba(255, 255, 255, 0.8);
