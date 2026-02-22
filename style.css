@@ -1,7 +1,20 @@
-html,
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
+}
+body .row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .navbar {
@@ -226,16 +239,28 @@ body {
   margin-top: 70px;
   -moz-columns: 2;
        columns: 2;
+  -moz-column-gap: 28px;
+       column-gap: 28px;
   justify-content: center;
 }
 .member-tabs .tabs {
   justify-items: space-between;
-  border-radius: 16px;
-  height: 400px;
-  width: 500px;
+  border-radius: 26px;
+  height: 460px;
+  width: 552px;
+}
+.member-tabs .tabs .white-tabs .cart-title {
+  display: flex;
+}
+.member-tabs .tabs .white-tabs .cart-title h5 {
+  width: 220px;
+  font-size: 26px;
+}
+.member-tabs .tabs .white-tabs .cart-title p {
+  background-color: white;
 }
 .member-tabs .tabs .card-body {
-  margin-top: 20px;
+  padding: 28px 28px 28px 28px;
   font-size: 30px;
 }
 .member-tabs .tabs .card-body .card-title {
@@ -248,15 +273,38 @@ body {
   font-size: 26px;
 }
 .member-tabs .tabs .card-body .card-title p {
+  font-weight: 700;
   border-radius: 16px;
-  padding: 10px 0 10px 10px;
+  padding: 10px 0 10px 5px;
   font-size: 20px;
-  background-color: rgb(238, 238, 35);
   width: 110px;
   color: black;
 }
+.member-tabs .tabs .card-body .card-text {
+  font-size: 20px;
+}
+.member-tabs .tabs .card-body .card-text .card-price {
+  display: flex;
+}
+.member-tabs .tabs .card-body .card-text .card-price .yellow {
+  font-size: 40px;
+  font-weight: 700;
+  color: yellow;
+}
+.member-tabs .tabs .card-body .card-text .card-price .purple {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(86, 20, 150, var(--tw-text-opacity, 1));
+}
+.member-tabs .tabs .card-body .card-text .card-price p {
+  width: 130px;
+  height: 40px;
+}
+.member-tabs .tabs .card-body .card-text .card-text1 {
+  font-size: 15px;
+}
 .member-tabs .tabs .card-body a {
-  padding: 0 150px 0 30px;
+  padding: 0 174px 0 0px;
   font-size: 23px;
 }
 .member-tabs .tabs .card-body .btn {
@@ -265,7 +313,7 @@ body {
   color: rgb(86, 20, 150, var(--tw-text-opacity, 1));
   font-size: 24px;
   font-weight: 600;
-  padding: 20px 26px 20px 26px;
+  padding: 20px 33px 20px 33px;
 }
 
 .member-btn {
