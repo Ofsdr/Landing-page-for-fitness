@@ -7,13 +7,13 @@ html {
   padding: 0;
 }
 body {
-    font-family: "Crete Round", serif;
+  font-family: "Crete Round", serif;
   margin: 0;
   padding: 0;
   .row {
-  margin-left: 0;
-  margin-right: 0;
-}
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .navbar {
@@ -148,9 +148,26 @@ body {
     font-weight: 500;
 
     position: relative;
+    .card-body {
+      margin: 20px 20px 20px 20px;
+      .card-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-    .btn {
-      background-color: #6a00ff;
+        h5 {
+          font-weight: 700;
+        }
+      }
+      .down-btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .btn {
+          background-color: #6a00ff;
+        }
+      }
     }
   }
 }
@@ -268,7 +285,6 @@ body {
 }
 
 .member-tabs {
-
   margin-top: 70px;
   columns: 2;
   column-gap: 28px;
@@ -281,30 +297,23 @@ body {
     width: 552px;
     .white-tabs {
       .cart-title {
-        
         display: flex;
-          
-          h5 {
-          
-          
+
+        h5 {
           width: 220px;
           font-size: 26px;
-
         }
         p {
           background-color: white;
         }
       }
-  
-    
     }
     .card-body {
       padding: 28px 28px 28px 28px;
-     
+
       font-size: 30px;
-     
+
       .card-title {
-        
         display: flex;
         justify-content: space-between;
         h5 {
@@ -317,7 +326,7 @@ body {
           border-radius: 16px;
           padding: 10px 0 10px 5px;
           font-size: 20px;
-          
+
           width: 110px;
           color: black;
         }
@@ -343,21 +352,20 @@ body {
         }
         .card-text1 {
           font-size: 15px;
-          
         }
       }
       a {
         padding: 0 174px 0 0px;
         font-size: 23px;
       }
-        .btn {
-    border-radius: 36px;
-    border: 1px solid;
-    color: rgb(86 20 150 / var(--tw-text-opacity, 1));
-    font-size: 24px;
-    font-weight: 600;
-    padding: 20px 33px 20px 33px;
-  }
+      .btn {
+        border-radius: 36px;
+        border: 1px solid;
+        color: rgb(86 20 150 / var(--tw-text-opacity, 1));
+        font-size: 24px;
+        font-weight: 600;
+        padding: 20px 33px 20px 33px;
+      }
     }
   }
 }
@@ -562,7 +570,6 @@ body {
       height: 70px;
       width: 70px;
       margin-bottom: 20px;
-
     }
 
     h3 {

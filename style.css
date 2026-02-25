@@ -138,7 +138,23 @@ body .row {
   font-weight: 500;
   position: relative;
 }
-.clubs .card .btn {
+.clubs .card .card-body {
+  margin: 20px 20px 20px 20px;
+}
+.clubs .card .card-body .card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clubs .card .card-body .card-title h5 {
+  font-weight: 700;
+}
+.clubs .card .card-body .down-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clubs .card .card-body .down-btn .btn {
   background-color: #6a00ff;
 }
 
