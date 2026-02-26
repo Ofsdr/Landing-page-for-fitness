@@ -151,15 +151,19 @@ body {
     .card-body {
       margin: 20px 20px 20px 20px;
       .card-title {
+
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 40px;
 
         h5 {
+          
           font-weight: 700;
         }
       }
       .down-btn {
+        margin-top: 40px;
         display: flex;
         justify-content: space-between;
         align-items: center;

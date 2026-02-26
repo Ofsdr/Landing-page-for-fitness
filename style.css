@@ -145,11 +145,13 @@ body .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
 }
 .clubs .card .card-body .card-title h5 {
   font-weight: 700;
 }
 .clubs .card .card-body .down-btn {
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
