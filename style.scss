@@ -70,7 +70,7 @@ body {
   clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0% 100%);
   margin: 0;
   position: relative;
-
+  min-width: 400px;
   z-index: 1;
   pointer-events: none;
   -webkit-user-select: none;
@@ -78,7 +78,7 @@ body {
   user-select: none;
   overflow: hidden;
   object-fit: cover;
-  
+ 
 }
 
 .main-display-search {
