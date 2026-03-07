@@ -556,4 +556,33 @@ body .row {
 }
 .footer .btn-light .social-icon:hover {
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .main-display-img {
+    justify-content: center;
+  }
+  .main-display-img img {
+    margin-top: 120px;
+    max-width: 600px;
+    max-height: 340px;
+  }
+  .main-display-img .main-display-search {
+    margin: 80px;
+    padding: 0;
+    max-width: 1200px;
+  }
+  .main-display-img .main-display-search .btn {
+    margin-left: 0;
+    padding: 10px 10px 10px 10px;
+  }
+  .main-display-img .main-display-search .btn a {
+    display: none;
+  }
+  .video-block {
+    display: none;
+  }
+  .video-block .main-display-video {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

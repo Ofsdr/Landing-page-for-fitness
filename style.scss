@@ -78,7 +78,6 @@ body {
   user-select: none;
   overflow: hidden;
   object-fit: cover;
- 
 }
 
 .main-display-search {
@@ -152,14 +151,12 @@ body {
     .card-body {
       margin: 20px 20px 20px 20px;
       .card-title {
-
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 40px;
 
         h5 {
-          
           font-weight: 700;
         }
       }
@@ -756,6 +753,35 @@ body {
       &:hover {
         color: #fff;
       }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-display-img {
+    justify-content: center;
+    img {
+      margin-top: 120px;
+      max-width: 600px;
+      max-height: 340px;
+    }
+    .main-display-search {
+      margin: 80px;
+      padding: 0;
+      max-width: 1200px;
+      .btn {
+        margin-left: 0;
+        padding: 10px 10px 10px 10px;
+        a {
+          display: none;
+        }
+
+      }
+    }
+  }
+  .video-block {
+    display: none;
+    .main-display-video {
+      display: none;
     }
   }
 }
