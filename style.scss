@@ -125,6 +125,7 @@ body {
 }
 
 .text-mi {
+  width: 100%;
   color: white;
   justify-content: center;
   align-items: center;
@@ -135,9 +136,12 @@ body {
 }
 
 .clubs {
-  display: inline-block;
+  display: inline-flex;
+  flex-wrap: wrap;
   justify-content: center;
   column-count: 3;
+  
+
 
   .card {
     text-align: left;
@@ -757,6 +761,29 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+  .navbar {
+    height: 100px;
+    font-size: 18px;
+
+    .btn {
+      font-size: 18px;
+    }
+
+    .btn-ju {
+      height: 40px;
+      width: 120px;
+      margin: 0 15px 0 5px;
+      font-size: 18px;
+    }
+
+    .img-icon {
+      img {
+        height: 80px;
+        width: 60px;
+      }
+    }
+  }
+
   .main-display-img {
     justify-content: center;
     img {
@@ -770,7 +797,9 @@ body {
       max-width: 1200px;
       .btn {
         margin-left: 0;
-        padding: 10px 10px 10px 10px;
+        width: 15%;
+        transform: translateY(-23px) translateX(150px);
+
         a {
           display: none;
         }
@@ -784,4 +813,27 @@ body {
       display: none;
     }
   }
+  .clubs {
+    gap: 20px;
+    justify-content: center;
+      .card {
+        width: 100%;
+        height: auto;
+      }
+      .btn {
+        padding: 10px 20px;
+        font-size: 18px;
+      }
+  }
+  .parents-btn {
+    display: flex;
+    justify-content: center;
+    margin: none;
+  .btn-show {
+    width: 50%;
+
+    font-size: 18px;
+    margin: none;
+  }
+}
 }
