@@ -761,7 +761,7 @@ body {
     }
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1068px) {
   .navbar {
     height: 100px;
     font-size: 18px;
@@ -787,7 +787,10 @@ body {
 
   .main-display-img {
     justify-content: center;
+    align-items: center;
+
     img {
+ 
       margin-top: 120px;
       max-width: 600px;
       max-height: 340px;
@@ -849,7 +852,7 @@ body {
     margin-bottom: 20px;
   }
   p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: normal;
   }
   img {
@@ -857,5 +860,24 @@ body {
     width: 100%;
     margin-top: 20px;
   }
+}
+.text-place {
+  
+  
+  text-wrap: none;
+  font-size: 10px;
+  font-weight: 800;
+
+ 
+  justify-content: center;
+  p {
+    width: none;
+    height: none;
+    text-wrap: wrap;
+    font-size: 40px;
+  }
+}
+.phone-image {
+  display: none;
 }
 }
