@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: none;
 }
 
 html {
@@ -626,5 +627,24 @@ body .row {
     width: 50%;
     font-size: 18px;
     margin: none;
+  }
+  .about-section {
+    padding: 100px 20px 100px 20px;
+  }
+  .about-section .card .card-body {
+    margin: 50px 0 50px 0;
+  }
+  .about-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .about-section img {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
