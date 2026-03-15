@@ -761,7 +761,8 @@ body {
     }
   }
 }
-@media screen and (max-width: 1068px) {
+
+@media screen and (max-width: 868px) {
   .navbar {
     height: 100px;
     font-size: 18px;
@@ -790,19 +791,21 @@ body {
     align-items: center;
 
     img {
- 
-      margin-top: 120px;
-      max-width: 600px;
-      max-height: 340px;
+      transform: translateX(-28px);
+      margin-top: 90px;
+      max-width: 340px;
+      max-height: 170px;
     }
     .main-display-search {
       margin: 80px;
       padding: 0;
-      max-width: 1200px;
+      height: 20px;
+      max-width: 400px;
+      transform: translateX(-95px);
       .btn {
         margin-left: 0;
         width: 15%;
-        transform: translateY(-23px) translateX(150px);
+        transform: translateY(5px) translateX(120px);
 
         a {
           display: none;
@@ -815,6 +818,14 @@ body {
     display: none;
     .main-display-video {
       display: none;
+    }
+  }
+  .member-text {
+    h1 {
+      font-size: 40px;
+    }
+    h5 {
+      font-size: 18px;
     }
   }
   .clubs {
@@ -861,7 +872,9 @@ body {
     margin-top: 20px;
   }
 }
-.text-place {
+.banner-column {
+  padding: none;
+  .text-place {
   
   
   text-wrap: none;
@@ -871,12 +884,14 @@ body {
  
   justify-content: center;
   p {
-    width: none;
-    height: none;
+    
+    padding: 0;
     text-wrap: wrap;
     font-size: 40px;
   }
 }
+}
+
 .phone-image {
   display: none;
 }
