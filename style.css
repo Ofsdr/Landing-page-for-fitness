@@ -627,10 +627,11 @@ body .row {
     margin-bottom: 20px;
   }
   .member-tabs .tabs a {
-    display: none;
+    font-size: 10px;
+    padding: 0;
   }
   .member-tabs .tabs .btn {
-    margin-left: 36px;
+    align-items: center;
     padding: 10px 20px;
     font-size: 18px;
   }
@@ -689,21 +690,26 @@ body .row {
     text-wrap: wrap;
     font-size: 40px;
   }
+  .column-place .col-block {
+    margin-bottom: 30px;
+  }
   .phone-image {
     display: none;
   }
-  .Download-section {
-    padding: 20px 0 20px 0;
-    justify-content: center;
+  .container-Download {
+    background-image: url(/remix/remix/images/grainy-background.png), url(https://www.planetfitness.com/remix/images/phone.png);
+    background-size: cover, contain;
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+    height: auto;
   }
-  .Download-section .text-phone {
-    text-wrap: wrap;
+  .container-Download .Download-section {
+    height: 500px;
+    padding: 20px 0 20px 0;
+    justify-items: center;
+  }
+  .container-Download .Download-section .text-phone {
     text-align: center;
     padding: 0;
-  }
-  .Download-section .text-phone h2 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

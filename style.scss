@@ -836,10 +836,11 @@ body {
       height: auto;
       margin-bottom: 20px;
       a {
-        display: none;
+        font-size: 10px ;
+        padding: 0;
       }
       .btn {
-        margin-left: 36px;
+        align-items: center;
         padding: 10px 20px;
         font-size: 18px;
       }
@@ -909,25 +910,33 @@ body {
 }
 }
 .column-place {
-  
+  .col-block {
+    margin-bottom: 30px;
+  }
   
 }
 .phone-image {
   display: none;
 }
+.container-Download {
+  background-image: url(/remix/remix/images/grainy-background.png),
+    url(https://www.planetfitness.com/remix/images/phone.png);
+  background-size: cover, contain;
+  background-position: center;
+  background-repeat: no-repeat, no-repeat;
+  height: auto;
 .Download-section {
+  
+  height: 500px;
   padding: 20px 0 20px 0;
-  justify-content: center;
 
-.text-phone {
-  text-wrap: wrap;
-  text-align: center;
-  padding: 0;
-  h2 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 20px;
+   justify-items: center;
+   
+  .text-phone {
+    text-align: center;
+    padding: 0;
   }
+ 
 }
 }
 }
