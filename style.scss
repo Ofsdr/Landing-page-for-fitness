@@ -828,6 +828,23 @@ body {
       font-size: 18px;
     }
   }
+  .member-tabs  {
+    columns: 1;
+    justify-content: center;
+     .tabs {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      a {
+        display: none;
+      }
+      .btn {
+        margin-left: 36px;
+        padding: 10px 20px;
+        font-size: 18px;
+      }
+     }
+  }
   .clubs {
     gap: 20px;
     justify-content: center;
@@ -891,8 +908,26 @@ body {
   }
 }
 }
-
+.column-place {
+  
+  
+}
 .phone-image {
   display: none;
+}
+.Download-section {
+  padding: 20px 0 20px 0;
+  justify-content: center;
+
+.text-phone {
+  text-wrap: wrap;
+  text-align: center;
+  padding: 0;
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+}
 }
 }

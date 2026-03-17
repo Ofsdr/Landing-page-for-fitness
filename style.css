@@ -616,6 +616,24 @@ body .row {
   .member-text h5 {
     font-size: 18px;
   }
+  .member-tabs {
+    -moz-columns: 1;
+         columns: 1;
+    justify-content: center;
+  }
+  .member-tabs .tabs {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .member-tabs .tabs a {
+    display: none;
+  }
+  .member-tabs .tabs .btn {
+    margin-left: 36px;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
   .clubs {
     gap: 20px;
     justify-content: center;
@@ -673,5 +691,19 @@ body .row {
   }
   .phone-image {
     display: none;
+  }
+  .Download-section {
+    padding: 20px 0 20px 0;
+    justify-content: center;
+  }
+  .Download-section .text-phone {
+    text-wrap: wrap;
+    text-align: center;
+    padding: 0;
+  }
+  .Download-section .text-phone h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
