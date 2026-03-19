@@ -565,6 +565,7 @@ body .row {
   .navbar {
     height: 100px;
     font-size: 18px;
+    z-index: 1000;
   }
   .navbar .btn {
     font-size: 18px;
@@ -586,8 +587,8 @@ body .row {
   .main-display-img img {
     transform: translateX(-28px);
     margin-top: 90px;
-    max-width: 340px;
-    max-height: 170px;
+    max-width: 475px;
+    max-height: 260px;
   }
   .main-display-img .main-display-search {
     margin: 80px;
@@ -711,5 +712,25 @@ body .row {
   .container-Download .Download-section .text-phone {
     text-align: center;
     padding: 0;
+  }
+}
+@media screen and (max-width: 1081px) {
+  .main-display-img {
+    justify-content: center;
+    align-items: center;
+  }
+  .video-block {
+    display: none;
+  }
+  .video-block .main-display-video {
+    display: none;
+  }
+  .Download-section .text-phone {
+    text-align: center;
+    padding: 0;
+  }
+  .Download-section .phone-image img {
+    max-width: 580px;
+    max-height: 630px;
   }
 }/*# sourceMappingURL=style.css.map */
