@@ -63,18 +63,13 @@ body .row {
 }
 
 .main-display-video {
-  transform: translateY(-120px);
+  display: block;
+  justify-items: end;
+  justify-content: end;
   clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0% 100%);
-  margin: 0;
-  position: relative;
-  min-width: 400px;
-  z-index: 1;
-  pointer-events: none;
-  -webkit-user-select: none;
-  /* Safari */
-  -moz-user-select: none;
-       user-select: none;
-  overflow: hidden;
+  top: 0;
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -82,36 +77,106 @@ body .row {
 .main-display-search {
   text-align: center;
   align-items: center;
-  margin: 0 auto;
-  max-width: 600px;
-  width: 100%;
-}
-.main-display-search .form-search {
-  height: 80px;
-  border-radius: 36px;
-  width: 110%;
-  padding: 16px 72px 16px 20px;
-  border: 2px solid #b7d2ff;
-  font-size: 16px;
-}
-.main-display-search .parents-btn {
-  width: 100%;
+  display: flex;
   margin-top: 30px;
 }
-.main-display-search .parents-btn .btn {
-  font-size: 22px;
+
+.search {
+  font-size: 18px;
+  text-align: start;
+  align-items: center;
   position: relative;
-  width: 100%;
-  width: 180px;
-  height: 50px;
-  font-weight: 600;
-  border-radius: 36px;
-  border: none;
-  background: #6a00ff;
-  color: #fff;
+  width: 60ch;
+  height: 5rem;
+  padding-left: 1.5rem;
+  border-radius: 2.5rem;
+  background: #ffffff;
+  box-shadow: 0 1.25rem 5rem -1rem rgba(0, 0, 30, 0.5);
+  transition: transform 200ms ease-in-out;
 }
-.main-display-search .parents-btn .btn:hover {
+.search input {
+  all: unset;
+  height: 100%;
+  color: #333355;
+}
+.search input::-moz-placeholder {
+  color: inherit;
+  opacity: 0.3;
+}
+.search input::placeholder {
+  color: inherit;
+  opacity: 0.3;
+}
+.search button {
+  all: unset;
+  position: absolute;
+  right: 0;
+  height: 4rem;
+  padding-left: 4rem;
+  margin: 0.5rem;
+  border-radius: 2.5rem;
+  background: rgb(86, 20, 150, var(--tw-bg-opacity, 1));
   cursor: pointer;
+}
+.search button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.5rem 2rem 0 rgba(41, 110, 199, 0.25), 0 0.5rem 1rem -0.75rem rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+.search button:hover::before {
+  opacity: 1;
+}
+.search button label {
+  display: block;
+  opacity: 0;
+  color: white;
+  width: 0;
+  transition: width 200ms ease-in-out, opacity 100ms ease-in-out;
+}
+.search button .search-icon {
+  font-weight: 700;
+  position: absolute;
+  height: 1.375rem;
+  width: 1.375rem;
+  top: 1.2rem;
+  left: 1.175rem;
+  border: 0.125rem solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+  transform: rotate(-45deg);
+}
+.search button .search-icon::after {
+  content: "";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.125rem;
+  background: white;
+  left: calc(50% - 0.0625rem);
+  bottom: -0.6rem;
+}
+.search:has(input:not(:-moz-placeholder)) button label {
+  font-size: 18px;
+  opacity: 1;
+  width: 4rem;
+  margin-left: -0.5rem;
+  padding-right: 1rem;
+}
+.search:has(input:not(:placeholder-shown)) button label {
+  font-size: 18px;
+  opacity: 1;
+  width: 4rem;
+  margin-left: -0.5rem;
+  padding-right: 1rem;
+}
+.search:has(input:focus) {
+  transform: translateY(-0.5rem);
+}
+.search:has(input:focus)::before {
+  opacity: 1;
 }
 
 .text-mi {
@@ -122,7 +187,7 @@ body .row {
   text-align: center;
   font-size: 60px;
   font-weight: 700;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .clubs {
@@ -167,7 +232,7 @@ body .row {
   justify-content: center;
 }
 .parents-btn .btn-show {
-  margin: 100px 0 100px 0;
+  margin: 50px 0 50px 0;
   width: 13%;
   display: flex;
   flex-direction: column;
