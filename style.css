@@ -58,8 +58,8 @@ body .row {
 .main-display-img img {
   margin-top: 70px;
   justify-content: center;
-  height: 450px;
-  width: 900px;
+  height: auto;
+  width: 100%;
 }
 
 .main-display-video {
@@ -646,24 +646,6 @@ body .row {
   .main-display-img {
     justify-content: center;
     align-items: center;
-  }
-  .main-display-img img {
-    transform: translateX(-28px);
-    margin-top: 90px;
-    max-width: 475px;
-    max-height: 260px;
-  }
-  .main-display-img .main-display-search {
-    margin: 80px;
-    padding: 0;
-    height: 20px;
-    max-width: 400px;
-    transform: translateX(-95px);
-  }
-  .main-display-img .main-display-search .btn {
-    margin-left: 0;
-    width: 15%;
-    transform: translateY(5px) translateX(120px);
   }
   .main-display-img .main-display-search .btn a {
     display: none;
