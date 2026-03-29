@@ -647,6 +647,12 @@ body .row {
     justify-content: center;
     align-items: center;
   }
+  .main-display-img img {
+    margin-top: 70px;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
   .main-display-img .main-display-search .btn a {
     display: none;
   }
@@ -759,7 +765,7 @@ body .row {
     padding: 0;
   }
 }
-@media screen and (max-width: 1081px) {
+@media screen and (max-width: 1581px) {
   .main-display-img {
     justify-content: center;
     align-items: center;
@@ -775,7 +781,6 @@ body .row {
     padding: 0;
   }
   .Download-section .phone-image img {
-    max-width: 580px;
-    max-height: 630px;
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

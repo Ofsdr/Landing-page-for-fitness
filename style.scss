@@ -921,7 +921,10 @@ body {
     align-items: center;
 
     img {
-    
+      margin-top: 70px;
+      justify-content: center;
+      height: auto;
+      width: 100%;
     }
     .main-display-search {
      
@@ -1061,7 +1064,7 @@ body {
 }
 }
 }
-@media screen and (max-width: 1081px) {
+@media screen and (max-width: 1581px) {
   .main-display-img {
     justify-content: center;
     align-items: center;
@@ -1079,9 +1082,9 @@ body {
     }
      .phone-image {
       img {
-       
-        max-width: 580px;
-        max-height: 630px;
+        display: none;
+        // max-width: 580px;
+        // max-height: 630px;
       }
      
     }
