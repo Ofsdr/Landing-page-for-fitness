@@ -512,6 +512,9 @@ body .row {
   font-size: 23px;
 }
 
+.Download-section {
+  height: auto;
+}
 .Download-section .text-phone {
   text-align: left;
   padding: 300px 0px 0px 220px;
@@ -677,9 +680,9 @@ body .row {
     height: auto;
     margin-bottom: 20px;
   }
-  .member-tabs .tabs a {
-    font-size: 10px;
-    padding: 0;
+  .member-tabs .tabs .card-body a {
+    font-size: 20px;
+    padding: 0px;
   }
   .member-tabs .tabs .btn {
     align-items: center;
@@ -775,9 +778,13 @@ body .row {
   .video-block .main-display-video {
     display: none;
   }
+  .Download-section {
+    height: 50vh;
+  }
   .Download-section .text-phone {
     text-align: center;
-    padding: 0;
+    padding: 120px 0 0 0;
+    width: auto;
   }
   .Download-section .phone-image img {
     display: none;
